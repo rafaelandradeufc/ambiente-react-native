@@ -164,7 +164,7 @@ Abra um terminal e digite:
 ```
 ifconfig 
 ```
-Assim você pode obeter o endereço IP do seu equipamento.
+Assim você pode obter o endereço IP do seu equipamento.
 
 Agora que você já tem acesso ao IP da sua máquina, abra a aplicação no dispositivo físico (se não estiver aberta), em seguida chacoalhe o dispositivo para abrir o **Developer Menu**, com ele aberto selecione a opção **Dev Settings**, dentro das configurações selecione a opção **Debug server host & port for device**.
 
