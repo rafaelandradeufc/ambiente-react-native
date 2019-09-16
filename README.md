@@ -1,0 +1,1 @@
+# ambiente-react-native
