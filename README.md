@@ -53,7 +53,7 @@ Crie uma pasta em um local desejado para instalação da SDK. Ex: ~/Android/Sdk
 
 Obs: Anote esse caminho para ser utilizado posteriormente!
 
-Acesse [AQUI](https://developer.android.com/studio/#downloads) , na opção "Command line tools only" baixe a SDK referente ao seu sistema operacional. Após feito o Download, extraia o conteúdo do pacote para a pasta criada no passo anterior. Com esse endereço precisamos configurar algumas variáveis ambiente em nosso sistema, procure pelo primeiro dos seguintes arquivos existentes no seu sistema: **~/.bash_profile**, **~/.profile**, **~/.zshrc** ou **~/.bashrc**, e adicione essas três linhas no arquivo (de preferência no início):
+Acesse [Android Studio downloads](https://developer.android.com/studio/#downloads) , na opção "Command line tools only" baixe a SDK referente ao seu sistema operacional. Após feito o Download, extraia o conteúdo do pacote para a pasta criada no passo anterior. Com esse endereço precisamos configurar algumas variáveis ambiente em nosso sistema, procure pelo primeiro dos seguintes arquivos existentes no seu sistema: **~/.bash_profile**, **~/.profile**, **~/.zshrc** ou **~/.bashrc**, e adicione essas três linhas no arquivo (de preferência no início):
 
 ```
 export ANDROID_HOME=~/Android/Sdk
