@@ -156,6 +156,19 @@ emulator-5554 offline   # Google emulator
 14ed2fcc device         # Physical device
 ```
 
+*Observação:* Caso você receba o seguinte erro: `“adb”, mostra que "comando não encontrado"` faça o seguinte passo adicional: Encontre o seguinte arquivo `.zshrc` e copie as linhas abaixo no mesmo:
+
+```
+export ANDROID_HOME=~/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+```
+
+Tente novamente executar 
+```
+adb devices
+```
+
 ### Executando via Wi-Fi no celular
 
 Você também pode se conectar ao servidor de desenvolvimento por Wi-Fi. Primeiro, você precisará instalar o aplicativo no seu dispositivo usando um cabo USB, mas depois disso, você poderá depurar sem fio seguindo estas instruções. Você precisará do endereço IP atual da sua máquina de desenvolvimento antes de continuar.
