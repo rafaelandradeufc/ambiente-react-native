@@ -41,6 +41,14 @@ sudo apt-get install openjdk-8-jdk
 
 Executando o **java -version** a versão estará correta com a  **openjdk version "1.8.0_222"**.
 
+# Observação 
+
+Caso não queira desisntalar as outras versões do java do seu computador basta utilizar o comando abaixo para escolher qual a versão do Java quero ter por padrão no sistema. **Atenção: Ainda é encessário ser a instalação da versão openjdk version "1.8.0_222"**
+
+```
+sudo update-alternatives --config java
+```
+
 ## Instalando libs gráficas
 
 ```
