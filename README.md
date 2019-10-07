@@ -43,7 +43,7 @@ Executando o **java -version** a versão estará correta com a  **openjdk versio
 
 # Observação 
 
-Caso não queira desisntalar as outras versões do java do seu computador basta utilizar o comando abaixo para escolher qual a versão do Java quero ter por padrão no sistema. **Atenção: Ainda é necessário ser a instalação da versão openjdk version "1.8.0_222"**
+Caso não queira remover as outras versões do java do seu computador, basta utilizar o comando abaixo para escolher qual a versão do Java você deseja ter por padrão no sistema. **Atenção: Ainda é necessário ser a instalação da versão openjdk version "1.8.0_222"**
 
 ```
 sudo update-alternatives --config java
