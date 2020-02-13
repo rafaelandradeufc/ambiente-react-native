@@ -164,7 +164,9 @@ emulator-5554 offline   # Google emulator
 14ed2fcc device         # Physical device
 ```
 
-*Observação:* Caso você receba o seguinte erro: `“adb”, mostra que "comando não encontrado"` faça o seguinte passo adicional: Encontre o seguinte arquivo `.zshrc` e copie as linhas abaixo no mesmo:
+*1- Observação:* Caso você receba o seguinte erro: `“adb”, mostra que "comando não encontrado"` faça o seguinte passo adicional: Encontre o seguinte arquivo `.zshrc` e copie as linhas abaixo no mesmo:
+
+*2- Observação:* Se mesmo assim continuar sem reconhecer o seu dispositivo desconecte e conecte novamente e vai aparecer uma mensagem solicitando para da permissão para usar o dispositivo assim o mesmo sera reconhecido.
 
 ```
 export ANDROID_HOME=~/Android/Sdk
